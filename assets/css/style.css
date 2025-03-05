@@ -1,0 +1,26 @@
+:root{
+    --bg:#fafafa;
+    --text:#222;
+    --brand:#1f6feb;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+.container{width:90%;max-width:1100px;margin:0 auto;padding:16px}
+.site-header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
+.site-header .container{display:flex;align-items:center;gap:16px}
+.logo{font-weight:700;text-decoration:none;color:var(--brand)}
+.main-nav{margin-left:auto;display:flex;gap:12px}
+.main-nav a{text-decoration:none;color:var(--text);padding:8px}
+.menu-toggle{display:none}
+
+/* Контент */
+main{padding:24px 0}
+
+/* Подвал */
+.site-footer{background:#111;color:#bbb;padding:18px 0;text-align:center;margin-top:40px}
+
+/* Адаптив */
+@media (max-width:768px){
+    .main-nav{display:none}
+    .menu-toggle{display:block;margin-left:auto}
+}

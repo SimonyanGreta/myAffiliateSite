@@ -1,0 +1,13 @@
+{
+  "name": "my-affiliate-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "greta <greta.simonyan98@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.5"
+  },
+  "scripts": {
+    "start": "serve ."
+  }
+}
